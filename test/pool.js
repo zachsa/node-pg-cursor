@@ -33,7 +33,7 @@ function poolQueryPromise (pool, readRowCount) {
 
 describe('pool', function () {
   beforeEach(function () {
-    this.pool = new pg.Pool({max: 1})
+    this.pool = new pg.Pool({ max: 1 })
   })
 
   afterEach(function () {
